@@ -12,3 +12,5 @@ Original website :
 Redesign : 
 
 ![image](https://user-images.githubusercontent.com/79546238/186277491-b214fc5a-f792-4107-b5a6-06124ad62a1c.png)
+
+![image](https://user-images.githubusercontent.com/79546238/186277713-78b09c81-059b-401c-8a47-66050429f448.png)
