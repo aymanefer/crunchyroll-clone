@@ -3,7 +3,7 @@ A redesign of the Crunchyroll website (HTML, CSS, Javascript)
 
 ------------------------------------------------------------
 
-As a personal design and front-end development exercise, I have decided to redesign the Crunchyroll website, adding to it my own touch while keeping the brand identity intact, thus resulting in a website that is relatively more appealing to its target audience.
+As a personal design and front-end development exercise, I have decided to redesign the Crunchyroll website, adding to it my own touch while keeping the brand identity intact. The result is a website much more appealing to its target audience.
 
 Original website : 
 
