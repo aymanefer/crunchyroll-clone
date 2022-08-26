@@ -103,6 +103,9 @@ header {
   cursor: pointer;
 }
 
+.nav-menu-toggle {
+  display: none;
+}
 .nav-links {
   display: flex;
   justify-items: center;

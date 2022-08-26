@@ -4,6 +4,7 @@ $(window).on('load', function() {
 })
 
 $(document).ready(function () {
+
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
     if (scroll > $("#nav").height()) {
@@ -49,4 +50,14 @@ $(document).ready(function () {
     showbg2(id);
   }, hidebg2);
 
+  function toggleMenu () {
+    $("#nav-links-container").toggleClass("nav-show");
+    console.log($("#nav-links-container").attr("class"))
+    $("#search-container").toggleClass("nav-show");
+  }
+
+  $(".nav-menu-toggle").click(function() {
+    toggleMenu();
+    console.log("the menu was clicked.")
+  });
 });

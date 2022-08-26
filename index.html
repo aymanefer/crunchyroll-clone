@@ -9,6 +9,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -34,9 +35,17 @@
     <link rel="preload" as="image" href="assets/backgrounds/demonslayer.webp" />
     <link rel="preload" as="image" href="assets/backgrounds/drstone.webp" />
     <link rel="preload" as="image" href="assets/backgrounds/fullmetal.webp" />
-    <link rel="preload" as="image" href="assets/backgrounds/goblinslayer.webp" />
+    <link
+      rel="preload"
+      as="image"
+      href="assets/backgrounds/goblinslayer.webp"
+    />
     <link rel="preload" as="image" href="assets/backgrounds/hxh.webp" />
-    <link rel="preload" as="image" href="assets/backgrounds/jujutsukaisen.webp" />
+    <link
+      rel="preload"
+      as="image"
+      href="assets/backgrounds/jujutsukaisen.webp"
+    />
     <link rel="preload" as="image" href="assets/backgrounds/mobpsycho.webp" />
     <link rel="preload" as="image" href="assets/backgrounds/onepiece.webp" />
     <link rel="preload" as="image" href="assets/backgrounds/spyxfamily.webp" />
@@ -52,7 +61,12 @@
     <div class="content">
       <header>
         <nav id="nav">
-          <img id="logo" src="/assets/logo.png" alt="logo" />
+          <div id="brand-container">
+            <img id="logo" src="/assets/logo.png" alt="logo" />
+            <div class="nav-link nav-menu-toggle">
+              <img src="assets/menu.png">
+            </div>
+          </div>
           <div id="nav-links-container">
             <ul class="nav-links">
               <li class="nav-link"><a href="#">Shows</a></li>
@@ -63,10 +77,10 @@
           </div>
           <div id="search-container">
             <ul class="nav-links">
-              <label for="search">Search</label>
-              <input type="search" id="search" name="search" />
               <li class="nav-link"><a href="#">Log In</a></li>
               <li class="nav-link"><a href="#">Sign Up</a></li>
+              <label for="search">Search</label>
+              <input type="search" id="search" name="search" />
             </ul>
           </div>
         </nav>
