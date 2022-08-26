@@ -18,7 +18,7 @@ $(document).ready(function () {
   });
 
   function showbg1(name) {
-    let image_path = "url(assets/backgrounds/" + name + ".jpg)";
+    let image_path = "url(assets/backgrounds/" + name + ".webp)";
     $("#anime-background1").css("opacity", "1");
     $("#anime-background1").css("background-image", image_path);
   }
@@ -28,7 +28,7 @@ $(document).ready(function () {
   }
 
   function showbg2(name) {
-    let image_path = "url(assets/backgrounds/" + name + ".jpg)";
+    let image_path = "url(assets/backgrounds/" + name + ".webp)";
     $("#anime-background2").css("opacity", "1");
     $("#anime-background2").css("background-image", image_path);
   }
