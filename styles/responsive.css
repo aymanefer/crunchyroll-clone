@@ -98,4 +98,11 @@
     margin-bottom: 0;
     flex-direction: column;
   }
+  footer {
+    padding: 2rem 0;
+  }
+  footer a {
+    display: inline-block;
+    line-height: 2rem;
+  }
 }
