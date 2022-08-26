@@ -57,7 +57,7 @@ $(document).ready(function () {
   }
 
   $(".nav-menu-toggle").click(function() {
-    toggleMenu();
+    // toggleMenu();
     console.log("the menu was clicked.")
   });
 });
