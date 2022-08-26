@@ -13,12 +13,45 @@ body {
   background-color: #010101;
 }
 
+.content {
+  display: none;
+}
+
+.loader {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #010101;
+  position: absolute;
+}
+
+.loader > div {
+  height: 75px;
+  width: 75px;
+  border: 10px solid #202020;
+  border-top-color: var(--primary-color);
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 @keyframes pulse {
   0% {
-      box-shadow: 0px 0px 0px 0px var(--primary-color);
+    box-shadow: 0px 0px 0px 0px var(--primary-color);
   }
   100% {
-     box-shadow: 0px 0px 10px 15px rgba(35, 130, 220,0);
+    box-shadow: 0px 0px 10px 15px rgba(35, 130, 220, 0);
   }
 }
 
@@ -287,7 +320,7 @@ section {
   z-index: 2;
 }
 
-.section-title::after{
+.section-title::after {
   content: "";
   position: absolute;
   width: 3rem;
@@ -313,7 +346,6 @@ section {
   height: 400px; */
 }
 
-
 .item-image {
   width: 300px;
   height: 400px;
@@ -323,7 +355,6 @@ section {
   border-radius: 7px;
   position: relative;
 }
-
 
 .item-image:after {
   content: "";

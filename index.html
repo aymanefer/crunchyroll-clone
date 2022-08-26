@@ -24,252 +24,257 @@
     ></script>
   </head>
   <body>
-    <header>
-      <nav id="nav">
-        <img id="logo" src="/assets/logo.png" alt="logo" />
-        <div id="nav-links-container">
-          <ul class="nav-links">
-            <li class="nav-link"><a href="#">Shows</a></li>
-            <li class="nav-link"><a href="#">Manga</a></li>
-            <li class="nav-link"><a href="#">News</a></li>
-            <li class="nav-link"><a href="#">Games</a></li>
-          </ul>
-        </div>
-        <div id="search-container">
-          <ul class="nav-links">
-            <label for="search">Search</label>
-            <input type="search" id="search" name="search" />
-            <li class="nav-link"><a href="#">Log In</a></li>
-            <li class="nav-link"><a href="#">Sign Up</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <div id="dark-overlay">
-        <div id="title-container">
-          <!-- <h1>Crunchyroll</h1> -->
-          <img id="title-logo" src="assets/logo.png" alt="logo" />
-          <hr />
-          <h2>
-            The Official Source of Anime and Drama<span
-              id="invisible-span"
-            ></span>
-          </h2>
-          <div id="title-description">
-            <p>
-              Welcome to the world's largest collection of Anime.
-              <span id="cta"
-                >Create a <span class="accent-color">free account</span> and
-                start watching your favorite shows today !</span
-              >
-            </p>
+    <div class="loader">
+      <div></div>
+    </div>
+    <div class="content">
+      <header>
+        <nav id="nav">
+          <img id="logo" src="/assets/logo.png" alt="logo" />
+          <div id="nav-links-container">
+            <ul class="nav-links">
+              <li class="nav-link"><a href="#">Shows</a></li>
+              <li class="nav-link"><a href="#">Manga</a></li>
+              <li class="nav-link"><a href="#">News</a></li>
+              <li class="nav-link"><a href="#">Games</a></li>
+            </ul>
           </div>
-          <div id="cta-buttons-container">
-            <button type="button" class="button primary-btn">
-              Create an account
-            </button>
-            <button type="button" class="button secondary-btn">
-              Browse our library
-            </button>
+          <div id="search-container">
+            <ul class="nav-links">
+              <label for="search">Search</label>
+              <input type="search" id="search" name="search" />
+              <li class="nav-link"><a href="#">Log In</a></li>
+              <li class="nav-link"><a href="#">Sign Up</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <div id="dark-overlay">
+          <div id="title-container">
+            <!-- <h1>Crunchyroll</h1> -->
+            <img id="title-logo" src="assets/logo.png" alt="logo" />
+            <hr />
+            <h2>
+              The Official Source of Anime and Drama<span
+                id="invisible-span"
+              ></span>
+            </h2>
+            <div id="title-description">
+              <p>
+                Welcome to the world's largest collection of Anime.
+                <span id="cta"
+                  >Create a <span class="accent-color">free account</span> and
+                  start watching your favorite shows today !</span
+                >
+              </p>
+            </div>
+            <div id="cta-buttons-container">
+              <button type="button" class="button primary-btn">
+                Create an account
+              </button>
+              <button type="button" class="button secondary-btn">
+                Browse our library
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-    </main>
-    <hr class="full-width-divider" />
-    <section id="popular">
-      <h1 class="section-title">Popular Shows</h1>
-      <div class="grid">
-        <div class="grid-item">
-          <div
-            id="onepiece"
-            class="item-image"
-            style="background-image: url('assets/onepiece.jpg')"
-          ></div>
-          <h2 class="item-title">One Piece</h2>
-          <p class="item-date">1997 - Ongoing</p>
+      </main>
+      <hr class="full-width-divider" />
+      <section id="popular">
+        <h1 class="section-title">Popular Shows</h1>
+        <div class="grid">
+          <div class="grid-item">
+            <div
+              id="onepiece"
+              class="item-image"
+              style="background-image: url('assets/onepiece.jpg')"
+            ></div>
+            <h2 class="item-title">One Piece</h2>
+            <p class="item-date">1997 - Ongoing</p>
+          </div>
+          <div class="grid-item">
+            <div
+              id="another"
+              class="item-image"
+              style="background-image: url('assets/another.jpg')"
+            ></div>
+            <h2 class="item-title">Another</h2>
+            <p class="item-date">2012 - Completed</p>
+          </div>
+          <div class="grid-item">
+            <div
+              id="aot"
+              class="item-image"
+              style="background-image: url('assets/aot.webp')"
+            ></div>
+            <h2 class="item-title">Attack On Titan</h2>
+            <p class="item-date">2013 - Ongoing</p>
+          </div>
+          <div class="grid-item">
+            <div
+              id="bnha"
+              class="item-image"
+              style="background-image: url('assets/bnha.jpg')"
+            ></div>
+            <h2 class="item-title">My Hero Academia</h2>
+            <p class="item-date">2016 - Ongoing</p>
+          </div>
+          <div class="grid-item">
+            <div
+              id="demonslayer"
+              class="item-image"
+              style="background-image: url('assets/demonslayer.webp')"
+            ></div>
+            <h2 class="item-title">Demon Slayer</h2>
+            <p class="item-date">2019 - Ongoing</p>
+          </div>
+          <div class="grid-item">
+            <div
+              id="jujutsukaisen"
+              class="item-image"
+              style="background-image: url('assets/jujutsukaisen.webp')"
+            ></div>
+            <h2 class="item-title">Jujutsu Kaisen</h2>
+            <p class="item-date">2020 - Ongoing</p>
+          </div>
+          <div class="grid-item">
+            <div
+              id="tokyoghoul"
+              class="item-image"
+              style="background-image: url('assets/tokyoghoul.jpg')"
+            ></div>
+            <h2 class="item-title">Tokyo Ghoul</h2>
+            <p class="item-date">2014 - Completed</p>
+          </div>
+          <div class="grid-item">
+            <div
+              id="yourlie"
+              class="item-image"
+              style="background-image: url('assets/yourlie.jpg')"
+            ></div>
+            <h2 class="item-title">Your Lie In April</h2>
+            <p class="item-date">2014 - Ongoing</p>
+          </div>
+          <div class="grid-item">
+            <div
+              id="hxh"
+              class="item-image"
+              style="background-image: url('assets/hxh.jpg')"
+            ></div>
+            <h2 class="item-title">Hunter x Hunter</h2>
+            <p class="item-date">2011 - Completed</p>
+          </div>
+          <div class="grid-item">
+            <div
+              id="fullmetal"
+              class="item-image"
+              style="background-image: url('assets/fullmetal.webp')"
+            ></div>
+            <h2 class="item-title">Fullmetal Alchemist : Brotherhood</h2>
+            <p class="item-date">2009 - Completed</p>
+          </div>
         </div>
-        <div class="grid-item">
-          <div
-            id="another"
-            class="item-image"
-            style="background-image: url('assets/another.jpg')"
-          ></div>
-          <h2 class="item-title">Another</h2>
-          <p class="item-date">2012 - Completed</p>
+        <div id="anime-background1"></div>
+      </section>
+      <hr class="full-width-divider" />
+      <section id="upcoming">
+        <h1 class="section-title">Upcoming Releases</h1>
+        <div class="grid">
+          <div class="grid-item">
+            <div
+              id="chainsawman"
+              class="item-image"
+              style="background-image: url('assets/upcoming/chainsawman.jpg')"
+            ></div>
+            <h2 class="item-title">Chainsaw Man</h2>
+            <p class="item-date">Oct 2022</p>
+          </div>
+          <div class="grid-item">
+            <div
+              id="spyxfamily"
+              class="item-image"
+              style="background-image: url('assets/upcoming/spyxfamily.jpg')"
+            ></div>
+            <h2 class="item-title">Spy x Family Part 2</h2>
+            <p class="item-date">Oct 2022</p>
+          </div>
+          <div class="grid-item">
+            <div
+              id="goblinslayer"
+              class="item-image"
+              style="background-image: url('assets/upcoming/goblinslayer.jpg')"
+            ></div>
+            <h2 class="item-title">Goblin Slayer 2nd Season</h2>
+            <p class="item-date">Unknown</p>
+          </div>
+          <div class="grid-item">
+            <div
+              id="blackclover"
+              class="item-image"
+              style="background-image: url('assets/upcoming/blackclover.jpg')"
+            ></div>
+            <h2 class="item-title">Black Clover Movie</h2>
+            <p class="item-date">2023</p>
+          </div>
+          <div class="grid-item">
+            <div
+              id="vinland"
+              class="item-image"
+              style="background-image: url('assets/upcoming/vinland.jpg')"
+            ></div>
+            <h2 class="item-title">Vinland Saga Season 2</h2>
+            <p class="item-date">Jan 2023</p>
+          </div>
+          <div class="grid-item">
+            <div
+              id="drstone"
+              class="item-image"
+              style="background-image: url('assets/upcoming/drstone.jpg')"
+            ></div>
+            <h2 class="item-title">Dr. Stone: New World</h2>
+            <p class="item-date">Apr 2023</p>
+          </div>
+          <div class="grid-item">
+            <div
+              id="mobpsycho"
+              class="item-image"
+              style="background-image: url('assets/upcoming/mobpsycho.jpg')"
+            ></div>
+            <h2 class="item-title">Mob Psycho 100 III</h2>
+            <p class="item-date">Oct 2022</p>
+          </div>
+          <div class="grid-item">
+            <div
+              id="bnha2"
+              class="item-image"
+              style="background-image: url('assets/upcoming/BNHA.jpg')"
+            ></div>
+            <h2 class="item-title">MHA Season 6</h2>
+            <p class="item-date">2014 - Ongoing</p>
+          </div>
+          <div class="grid-item">
+            <div
+              id="aot2"
+              class="item-image"
+              style="background-image: url('assets/upcoming/aot.jpg')"
+            ></div>
+            <h2 class="item-title">AOT - The Final Season</h2>
+            <p class="item-date">2023</p>
+          </div>
+          <div class="grid-item">
+            <div
+              id="tanya"
+              class="item-image"
+              style="background-image: url('assets/upcoming/tanya.jpg')"
+            ></div>
+            <h2 class="item-title">Saga of Tanya the Evil II</h2>
+            <p class="item-date">Unknown</p>
+          </div>
         </div>
-        <div class="grid-item">
-          <div
-            id="aot"
-            class="item-image"
-            style="background-image: url('assets/aot.webp')"
-          ></div>
-          <h2 class="item-title">Attack On Titan</h2>
-          <p class="item-date">2013 - Ongoing</p>
-        </div>
-        <div class="grid-item">
-          <div
-            id="bnha"
-            class="item-image"
-            style="background-image: url('assets/bnha.jpg')"
-          ></div>
-          <h2 class="item-title">My Hero Academia</h2>
-          <p class="item-date">2016 - Ongoing</p>
-        </div>
-        <div class="grid-item">
-          <div
-            id="demonslayer"
-            class="item-image"
-            style="background-image: url('assets/demonslayer.webp')"
-          ></div>
-          <h2 class="item-title">Demon Slayer</h2>
-          <p class="item-date">2019 - Ongoing</p>
-        </div>
-        <div class="grid-item">
-          <div
-            id="jujutsukaisen"
-            class="item-image"
-            style="background-image: url('assets/jujutsukaisen.webp')"
-          ></div>
-          <h2 class="item-title">Jujutsu Kaisen</h2>
-          <p class="item-date">2020 - Ongoing</p>
-        </div>
-        <div class="grid-item">
-          <div
-            id="tokyoghoul"
-            class="item-image"
-            style="background-image: url('assets/tokyoghoul.jpg')"
-          ></div>
-          <h2 class="item-title">Tokyo Ghoul</h2>
-          <p class="item-date">2014 - Completed</p>
-        </div>
-        <div class="grid-item">
-          <div
-            id="yourlie"
-            class="item-image"
-            style="background-image: url('assets/yourlie.jpg')"
-          ></div>
-          <h2 class="item-title">Your Lie In April</h2>
-          <p class="item-date">2014 - Ongoing</p>
-        </div>
-        <div class="grid-item">
-          <div
-            id="hxh"
-            class="item-image"
-            style="background-image: url('assets/hxh.jpg')"
-          ></div>
-          <h2 class="item-title">Hunter x Hunter</h2>
-          <p class="item-date">2011 - Completed</p>
-        </div>
-        <div class="grid-item">
-          <div
-            id="fullmetal"
-            class="item-image"
-            style="background-image: url('assets/fullmetal.webp')"
-          ></div>
-          <h2 class="item-title">Fullmetal Alchemist : Brotherhood</h2>
-          <p class="item-date">2009 - Completed</p>
-        </div>
-      </div>
-      <div id="anime-background1"></div>
-    </section>
-    <hr class="full-width-divider" />
-    <section id="upcoming">
-      <h1 class="section-title">Upcoming Releases</h1>
-      <div class="grid">
-        <div class="grid-item">
-          <div
-            id="chainsawman"
-            class="item-image"
-            style="background-image: url('assets/upcoming/chainsawman.jpg')"
-          ></div>
-          <h2 class="item-title">Chainsaw Man</h2>
-          <p class="item-date">Oct 2022</p>
-        </div>
-        <div class="grid-item">
-          <div
-            id="spyxfamily"
-            class="item-image"
-            style="background-image: url('assets/upcoming/spyxfamily.jpg')"
-          ></div>
-          <h2 class="item-title">Spy x Family Part 2</h2>
-          <p class="item-date">Oct 2022</p>
-        </div>
-        <div class="grid-item">
-          <div
-            id="goblinslayer"
-            class="item-image"
-            style="background-image: url('assets/upcoming/goblinslayer.jpg')"
-          ></div>
-          <h2 class="item-title">Goblin Slayer 2nd Season</h2>
-          <p class="item-date">Unknown</p>
-        </div>
-        <div class="grid-item">
-          <div
-            id="blackclover"
-            class="item-image"
-            style="background-image: url('assets/upcoming/blackclover.jpg')"
-          ></div>
-          <h2 class="item-title">Black Clover Movie</h2>
-          <p class="item-date">2023</p>
-        </div>
-        <div class="grid-item">
-          <div
-            id="vinland"
-            class="item-image"
-            style="background-image: url('assets/upcoming/vinland.jpg')"
-          ></div>
-          <h2 class="item-title">Vinland Saga Season 2</h2>
-          <p class="item-date">Jan 2023</p>
-        </div>
-        <div class="grid-item">
-          <div
-            id="drstone"
-            class="item-image"
-            style="background-image: url('assets/upcoming/drstone.jpg')"
-          ></div>
-          <h2 class="item-title">Dr. Stone: New World</h2>
-          <p class="item-date">Apr 2023</p>
-        </div>
-        <div class="grid-item">
-          <div
-            id="mobpsycho"
-            class="item-image"
-            style="background-image: url('assets/upcoming/mobpsycho.jpg')"
-          ></div>
-          <h2 class="item-title">Mob Psycho 100 III</h2>
-          <p class="item-date">Oct 2022</p>
-        </div>
-        <div class="grid-item">
-          <div
-            id="bnha2"
-            class="item-image"
-            style="background-image: url('assets/upcoming/BNHA.jpg')"
-          ></div>
-          <h2 class="item-title">MHA Season 6</h2>
-          <p class="item-date">2014 - Ongoing</p>
-        </div>
-        <div class="grid-item">
-          <div
-            id="aot2"
-            class="item-image"
-            style="background-image: url('assets/upcoming/aot.jpg')"
-          ></div>
-          <h2 class="item-title">AOT - The Final Season</h2>
-          <p class="item-date">2023</p>
-        </div>
-        <div class="grid-item">
-          <div
-            id="tanya"
-            class="item-image"
-            style="background-image: url('assets/upcoming/tanya.jpg')"
-          ></div>
-          <h2 class="item-title">Saga of Tanya the Evil II</h2>
-          <p class="item-date">Unknown</p>
-        </div>
-      </div>
-      <div id="anime-background2"></div>
-    </section>
+        <div id="anime-background2"></div>
+      </section>
+    </div>
     <script src="javascript/main.js"></script>
   </body>
 </html>
