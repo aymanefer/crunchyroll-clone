@@ -398,3 +398,20 @@ section {
   font-style: italic;
   font-size: 1rem;
 }
+
+footer {
+  padding: 1rem 0;
+}
+
+footer p {
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+footer a {
+  font-weight: 700;
+  text-decoration: underline;
+}
